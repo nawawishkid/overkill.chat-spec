@@ -31,13 +31,19 @@ A platform where users can write posts, comment on each other posts, create thei
 1.1.16. A **Logged-in User** can see a list of all the **Post**s and **Comment**s they have voted.  
 1.1.17. A **Logged-in User** can see a list of the **Post**s they have read.  
 1.1.18. A **Logged-in User** must not be able to see who have voted to their **Post**s and **Comment**s.  
-1.1.19. A **Logged-in User** can be notified when someone has voted to their **Post**s and **Comment**s.  
 1.1.20. A **Logged-in User** can see a list of all **Post**s from all **Group**s they have joined ordered by published time from the newest to the oldest on their **Post**s feed.
 
 **1.2. Saved posts/comments**  
 1.2.1. A **Logged-in User** can save a **Post** or a **Comment**.  
 1.2.2. A **Logged-in User** can see a list of their saved **Post**s and **Comments**.  
 1.2.3. A **Logged-in User** can unsave the saved **Post**s and **Comment**s.
+
+**1.3. Notifications**  
+1.3.1. A **Logged-in User** must be notified when someone has voted to their **Post**s or **Comment**s.  
+1.3.2. A **Logged-in User** must be notified when someone has commented on their **Post**s or has replied to their **Comment**s.  
+1.3.3. A **Logged-in User** must be notified when someone has sent them a message in their **Personal Chat Room** or in their **Group Chat Room**.
+
+**Note**: A **Logged-in User** can be notified via different channel depends on the platform they are in at the time the notification occurs. For example, if the **Logged-in User** is using their mobile either iOS or Android, they must be notified via Push notification with an optional email sent to their inbox. If they are on website and has already allowed the web push notification permission, they must be notified via the web push notification with an optional email sent to their inbox.
 
 ### 2. Group
 
@@ -54,7 +60,8 @@ A platform where users can write posts, comment on each other posts, create thei
 2.2.4. A **Group Moderator** can ban **Group Member**s from the **Group** they moderates.
 2.2.5. A **Group Moderator** can see a list of all **Content Report**s of a **Post** or a **Comment** in the **Group** they moderate.  
 2.2.6. A **Group Moderator** can see a list of all **Content Report**s of all **Post**s and **Comment**s in the **Group** they moderate.
-2.2.7 A **Group Moderator** can hide a **Post** or a **Comment** in the **Group** they moderate, reported by **Group Member**s as inappropriate.
+2.2.7. A **Group Moderator** can hide a **Post** or a **Comment** in the **Group** they moderate, reported by **Group Member**s as inappropriate.  
+2.2.8. A **Group Moderator** must be notified when the **Group**s they moderate have just got a new **Group Member**.
 
 **2.3. Group Member**  
 2.3.1. A **Group Member** is a **Logged-in User** who has joined or created the **Group**.  
